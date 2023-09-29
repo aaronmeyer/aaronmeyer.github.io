@@ -1,0 +1,54 @@
+/*	
+Aaron Meyer
+9/29/23
+styles.css 
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h3{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background-color: #3cb371;
+}
+img{
+	height: none;
+	width: none;
+	max-width: 100%;
+	display: block;
+}
+footer{
+	background-color: #9884a8;
+}
+footer p{
+	text-align: center;
+}
+nav ul{
+	list-style: none;
+	margin: 0;
+	text-align: center;
+}
+nav li{
+	display: inline-block;
+	font-size: 2em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+}
+nav li a{
+	display: block;
+	color: #98fe72;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	text-decoration: none;
+} 
+main{
+	text-align: center;
+}
+main p{
+	font-size: 1.5em;
+	font-weight: bold;
+}
