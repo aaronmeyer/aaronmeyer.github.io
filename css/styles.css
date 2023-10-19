@@ -78,11 +78,11 @@ h3{
 @media screen and (min-width: 500px), print{
 article{
 	width: 50%;
-	float: right;
+	float: center;
 	height: 190px;
 }
 footer{
-	float: right;
+	float: center;
 }
 }
 /* Media Query for Desktop Viewport */
