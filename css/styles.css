@@ -5,7 +5,7 @@ styles.css
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h3{
+body, header, nav, main, footer, img, h3, figure, figcaption, section, article, aside{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -59,6 +59,12 @@ main li{
 }
 h3{
 	font-family: 'Francois One', sans-serif;
+	text-shadow: 7px 12px 7px #ccc;
+}
+article{
+	padding: 2%;
+	text-align: center;
+	margin: 0 auto;
 }
 .mobile{
 	display: block;
