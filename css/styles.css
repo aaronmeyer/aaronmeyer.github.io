@@ -18,6 +18,7 @@ img{
 	width: none;
 	max-width: 100%;
 	display: block;
+	float: center;
 }
 footer{
 	background-color: #9884a8;
@@ -46,6 +47,10 @@ nav li a{
 	padding-right: 1em;
 	text-decoration: none;
 } 
+h1{
+	float: right;
+	background-color: red;
+}
 main{
 	text-align: center;
 }
@@ -66,6 +71,7 @@ article{
 	text-align: center;
 	margin: 0 auto;
 }
+
 .mobile{
 	display: block;
 }
@@ -99,6 +105,6 @@ article{
 }
 article:hover{
 	background-color: #AB4141;
-	color: #E89898;
+	color: green;
 }
 }
