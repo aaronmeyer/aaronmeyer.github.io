@@ -36,6 +36,81 @@
 		<li>My favorite pop is Dr.Pepper then Coke.</li>
 		<li>I go to CVCC in Brecksville, Ohio.</li>
 	</article>
+	<table><!--Start Table -->
+		<caption>When I watch Sports based on my teams</caption>
+	<tr><!-- Row 1 -->
+			<th>Cavaliers</th>
+			<th>Browns</th>
+			<th>Indians</th>
+			<th>Ohio State</th>
+	</tr>
+	<tr><!-- Row 2 -->
+		<td>7:00 pm</td>
+		<td>1:00 pm</td>
+		<td>4:10 pm </td>
+		<td>12:00 pm</td>
+	</tr>
+	<tr><!-- Row 3 -->
+		<td>10 pm (West Coast Game)</td>
+		<td>4:30 pm (West Coast Game)</td>
+		<td>1:10 pm </td>
+		<td>3:30 pm</td>
+	</tr>
+	<tr><!-- Row 4 -->
+		<<td>1:00 pm</td>
+		<td>8:20 pm (Sunday Primetime)</td>
+		<td>10:00 pm (West Coast Game)</td>
+		<td>7:30 pm (Prime Time Game)</td>
+	</tr>
+	</table>
+	<form><!-- Start Form -->
+	<form class="form-grid">
+	
+		<fieldset>
+			<legend>Sports Info</legend>
+			<label for="fName">First Name:</label>
+			<input type="text" id="fName" required>
+			
+			<label for="lName">Last Name:</label>
+			<input type="text" name="lName" id="lName" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" required>
+			
+			<label for="phone">Phone:</label>
+			<input type="tel" name="phone" id="phone" required>
+		</fieldset>
+		
+		<fieldset>
+			<legend>Additional Information</legend>
+			<p>I would like more information about:</p>
+			
+			<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Group Fitness">Times for your favorite sports team</label>
+			
+			<label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Personal Training">Best Teams in your Sport</label>
+			
+			<label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Nutrition">Players on the team</label>
+
+		</fieldset>
+		
+		<fieldset>
+			<legend>Source</legend>
+			<label for="reference">How did you find us?</label>
+			<select name="reference" id="reference">
+				<option value="ad">ESPN</option>
+				<option value="friend">Friend</option>
+				<option value="google">Google</option>
+				<option value="social">YouTube</option>
+				<option value="other">Other</option>
+			</select>
+			
+			<label for="questions">Questions?</label>
+			<textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+		</fieldset>
+		
+		<input type="submit" id="submit" value="Submit" class="btn">
+				
+	</form>
 </main>
 
 <footer>
