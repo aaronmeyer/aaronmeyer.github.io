@@ -72,8 +72,9 @@ article{
 	margin: 0 auto;
 }
 
-.mobile{
+mobile{
 	display: block;
+	background-color: red;
 }
 .round main p{
 	border-radius: 8px;
@@ -96,6 +97,12 @@ article{
 footer{
 	float: center;
 }
+legend{
+		background-color: red;
+	}
+	p{
+		background-color: brown;
+	}
 }
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 770px){
@@ -107,4 +114,10 @@ article:hover{
 	background-color: #AB4141;
 	color: green;
 }
+	legend{
+		background-color: red;
+	}
+	p{
+		background-color: lime;
+	}
 }
