@@ -16,7 +16,7 @@ body{
 img{
 	height: none;
 	width: none;
-	max-width: 100%;
+	max-width: 10%;
 	display: block;
 	float: center;
 }
@@ -120,4 +120,7 @@ article:hover{
 	p{
 		background-color: lime;
 	}
+}
+main h3{
+	float: left;
 }
