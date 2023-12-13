@@ -87,6 +87,34 @@ mobile{
 	text-align: center;
 	border-radius: 10px;
 }
+.mobile-nav a {
+	color: #fff;
+	font-family: 'Francois One', sans-serif;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	padding: 3%;
+	display: block;
+}
+.mobile-nav a.menu-icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin-left: 6%;
+	-webkit-animation-name: text-animation;
+	animation-name: text-animation;
+	-webkit-animation-duration: 5s;
+	animation-duration: 5s;
+}
+.circle:hover {
+	transform: translate(680px);
+}
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 500px), print{
 article{
